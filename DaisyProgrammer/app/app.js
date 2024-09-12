@@ -1,5 +1,5 @@
 // Generic Strings
-const root_url = "https://electro-smith.github.io/Programmer"
+const root_url = "https://alefal44.github.io/DaisyProgrammer"
 
 // New changes involve reading from sources.json to find the 'sources' we should pull from
 // Those sources replace the previously hard coded 'examples.json' file, and should otherwise 
