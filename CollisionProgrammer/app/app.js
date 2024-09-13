@@ -262,8 +262,9 @@ var app = new Vue({
 
       <div class="flex flex-col items-center">
         <div>
-          <h1 class="h1 shadow">Collision Programmer.</h1>
+          <h1 class="h1 shadow">Collision Devices Firmware Updater</h1>
         </div>
+        <!--
         <div class="relative flex justify-center">
           <img
             src="assets/binaryV2.svg"
@@ -273,6 +274,8 @@ var app = new Vue({
             :style="{ opacity: overlayVisible ? '2' : '1' }"
           />
         </div>
+        -->
+        */
         <div
           class="flex pb-2 items-center justify-center w-96 relative flex-col "
         >
