@@ -1,4 +1,4 @@
-const root_url = "https://electro-smith.github.io/Programmer";
+const root_url = "https://alefal44.github.io/BlissProgrammer";
 
 var data = {
   overlayVisible: false,
