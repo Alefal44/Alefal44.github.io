@@ -603,10 +603,10 @@ var app = new Vue({
       this.accordionOpen = false;
     },
     navigateBackOrRedirect() {
-      if (document.referrer.includes("https://chasebliss.com")) {
+      if (document.referrer.includes("https://collisiondevices.com/")) {
         window.history.back();
       } else {
-        window.location.href = "https://chasebliss.com";
+        window.location.href = "https://collisiondevices.com/";
       }
     },
     importfirmwares() {
