@@ -276,7 +276,6 @@ var app = new Vue({
           />
         </div>
         -->
-        */
         <div
           class="flex pb-2 items-center justify-center w-96 relative flex-col "
         >
