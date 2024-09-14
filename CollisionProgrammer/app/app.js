@@ -265,6 +265,7 @@ var app = new Vue({
         <div>
           <h1 class="h1 shadow">Firmware Updater</h1>
         </div>
+
         <!--
         <div class="relative flex justify-center">
           <img
@@ -276,6 +277,7 @@ var app = new Vue({
           />
         </div>
         -->
+        
         <div
           class="flex pb-2 items-center justify-center w-96 relative flex-col "
         >
