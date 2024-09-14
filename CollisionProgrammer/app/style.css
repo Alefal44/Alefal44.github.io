@@ -56,8 +56,8 @@ nav {
 
 body {
   padding: 0 7vw;
-  font-family: "Poppins", sans-serif !important;
-  background-color: #fefbf6;
+  font-family: "Muli", sans-serif !important;
+  background-color: #f1f2f2;
 }
 
 .app_body {
@@ -81,7 +81,7 @@ body {
     color 0.3s ease;
 }
 .accordion-parent {
-  background: #fefbf6;
+  background: #f1f2f2;
   transition: box-shadow 0.3s ease-in-out; /* Adjust duration and timing function as needed */
   box-shadow: none; /* Default state with no shadow or very subtle shadow */
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .h1 {
-  background: #fefbf6;
+  background: #f1f2f2;
   border: 2px solid black;
   /*max-width: 1000px;*/
   width: fit-content;
@@ -110,12 +110,12 @@ body {
   padding: 20px;
 }
 .changelog {
-  background: #fefbf6 !important;
+  background: #f1f2f2 !important;
 }
 
 button,
 label {
-  background: #fefbf6 !important;
+  background: #f1f2f2 !important;
   border: 2px solid black;
   min-width: 204px;
   height: 50px;
@@ -157,7 +157,7 @@ input[type="file"] {
 
   #mobileWarning {
     display: block; /* Show the warning */
-    background-color: #fefbf6;
+    background-color: #f1f2f2;
   }
 }
 
@@ -201,7 +201,7 @@ input[type="file"] {
 }
 .info p {
   position: absolute;
-  background: #fefbf6 !important;
+  background: #f1f2f2 !important;
   bottom: -204px;
   font-size: 18px;
   text-align: center;
@@ -263,7 +263,7 @@ progress::-webkit-progress-bar {
 
 .instructions {
   border: 1px solid black;
-  background: #fefbf6;
+  background: #f1f2f2;
   padding: 40px;
   width: 500px;
   z-index: 20;
