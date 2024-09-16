@@ -379,24 +379,26 @@ var app = new Vue({
           <!--          </div>-->
         </div>
         <p>
+        <!-- new button test
         <button 
           type="button" 
           class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
           >
             Connect
           </button>
+        -->
 
-        <!--
+        <!-- old Connect button -->
           <button
             variant="es"
             id="connect"
-            class="mt-4"
+            class="mt-4 rounded-full"
             :class="{'button-shadow': sel_firmware, 'button-no-shadow': !sel_firmware, 'opacity-40': !sel_firmware}"
             :disabled="!sel_firmware"
           >
             Connect
           </button>
-        -->
+        
         </p>
         <button
           id="download"
