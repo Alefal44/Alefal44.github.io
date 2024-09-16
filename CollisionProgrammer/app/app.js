@@ -270,7 +270,7 @@ var app = new Vue({
         
         <div class="relative flex justify-center">
           <img
-            src="assets/binaryV2.svg"
+            src="assets/bhs.svg"
             alt="BHS"
             style="width: 650px"
             class="py-2 z-20 transition-opacity duration-300"
