@@ -267,17 +267,17 @@ var app = new Vue({
           <h1 class="h1 shadow">Firmware Updater</h1>
         </div>
 
-        <!--
+        
         <div class="relative flex justify-center">
           <img
             src="assets/binaryV2.svg"
-            alt="Binary Image"
+            alt="BHS"
             style="width: 650px"
             class="py-2 z-20 transition-opacity duration-300"
             :style="{ opacity: overlayVisible ? '2' : '1' }"
           />
         </div>
-        -->
+        
         
         <div
           class="flex pb-2 items-center justify-center w-96 relative flex-col "
