@@ -315,3 +315,15 @@ ol > li:before {
   text-align: right;
   content: counter(item) ".";
 }
+
+.pedal{
+  width: 200px;
+  height: 126px;
+  transition: width 2s, height 2s;
+}
+
+.pedal:hover{
+  width 100px;
+  height 63px;
+  /* transform: scale(1.5, 1.5);*/
+}

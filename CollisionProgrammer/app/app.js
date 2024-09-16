@@ -267,18 +267,17 @@ var app = new Vue({
           <h1 class="h1 shadow">Firmware Updater</h1>
         </div>
 
-        
-        <div class="relative flex justify-center">
-          <img
-            @mouseover="width: 400px"
-            @mouseleave="width: 200px"
-            src="assets/bhs.svg"
-            alt="BHS"
-            style="width: 200px"
-            class="py-2 z-20 transition-opacity duration-300"
-            :style="{ opacity: overlayVisible ? '2' : '1' }"
-          />
-        </div>
+        <a class="pedal">
+          <div class="relative flex justify-center">
+            <img
+              src="assets/bhs.svg"
+              alt="BHS"
+              style="width: 200px"
+              class="py-2 z-20 transition-opacity duration-300"
+              :style="{ opacity: overlayVisible ? '2' : '1' }"
+            />
+          </div>
+        </a>
 
 
         
