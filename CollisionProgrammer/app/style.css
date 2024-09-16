@@ -61,7 +61,7 @@ body {
 }
 
 .app_body {
-  animation: fadeIn 1s ease-out forwards;
+  animation: fadeIn 1s ease-out forwards; /* Fade in all the page body when page is loaded */
   margin-bottom: 80px;
   height: 100vh;
 }
