@@ -267,23 +267,22 @@ var app = new Vue({
           <h1 class="h1 shadow">Firmware Updater</h1>
         </div>
 
-        <!--- svg standard import
+        
         <div class="relative flex justify-center">
           <img
+            @mouseover="width: 400px"
+            @mouseleave="width: 200px"
             src="assets/bhs.svg"
             alt="BHS"
-            style="width: 300px"
+            style="width: 200px"
             class="py-2 z-20 transition-opacity duration-300"
             :style="{ opacity: overlayVisible ? '2' : '1' }"
           />
         </div>
-        -->
 
-        <button>
-        <embed src="assets/bhs.svg" />
-                    :class="{'button-shadow': sel_firmware, 'button-no-shadow': !sel_firmware, 'opacity-40': !sel_firmware}"
-        </button>
+
         
+    
         
         <div
           class="flex pb-2 items-center justify-center w-96 relative flex-col "
