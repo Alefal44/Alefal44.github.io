@@ -272,7 +272,7 @@ var app = new Vue({
             <img
               src="assets/bhs.svg"
               alt="BHS"
-              <!-- style="width: 200px" -->
+              style="width: 200px"
               class="py-2 z-20 transition-opacity duration-300"
               :style="{ opacity: overlayVisible ? '2' : '1' }"
             />
